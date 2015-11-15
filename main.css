@@ -1,0 +1,21 @@
+.header {
+	background-image: url("eight_horns.png");
+	height: 600px;
+	padding-top: 100px;
+}
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    -webkit-box-shadow: 57px 57px 157px 23px rgba(0,0,0,0.39);
+	-moz-box-shadow: 57px 57px 157px 23px rgba(0,0,0,0.39);
+	box-shadow: 57px 57px 157px 23px rgba(0,0,0,0.39);
+}
+.header h1 {
+	text-align: center;
+	font-family: 'Pinyon Script', cursive;
+	font-size: 55px;
+	font-weight: normal;
+	color: #4F4F4F;
+}

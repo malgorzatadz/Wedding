@@ -4,15 +4,19 @@
     <link rel="stylesheet" href="main.css">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
     <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pontano+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="smooth-scroll.min.js"></script>
     <title>Ślub Gosi i Piotrka</title>
   </head>
   <body>
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
-          <li><a href="#">Kiedy</a></li>
-          <li><a href="#">Gdzie</a></li>
-          <li><a href="#">Informacje</a></li>
+          <li><a data-scroll href="#kiedy">Kiedy</a></li>
+          <li><a data-scroll href="#gdzie">Gdzie</a></li>
+          <li><a data-scroll href="#informacje">Informacje</a></li>
+          <li><a data-scroll href="#kontakt">Kontakt</a/></li>
         </ul>
       </div>
     </div>
@@ -24,17 +28,17 @@
     </div> 
     <div class="main">
       <div class="when">
-        <h2>Kiedy?</h2>
-        <p>Nasz wielki dzień będziemy przeżywać <strong>5 sierpnia 2015 roku</strong>. Ceremonia w kościele zacznie się o godz.<strong>16.00</strong>, a na przyjęcie weselne zapraszamy ok. godz.<strong>18.00.</strong></p>
+        <h2 id="kiedy">Kiedy?</h2>
+        <p>Nasz wielki dzień będziemy przeżywać <strong>5 sierpnia 2017 roku</strong>. Ceremonia w kościele zacznie się o godz.<strong>16.00</strong>, a na przyjęcie weselne zapraszamy ok. godz.<strong>18.00.</strong></p>
       </div>
         <div class="where">
-          <h2>Gdzie?</h2>
+          <h2 id= "gdzie">Gdzie?</h2>
           <p>Ślub odbędzie się w kościele p.w. Świętej Rodziny przy ul. Zapustnej 43 w Warszawie.</p>
           <p>Na wesele zapraszamy do Zajazdu "Przybyszówka", mieszczącego się przy ul. Narutowicza 32 w Kobyłce.</p>
-          <img src="http://placekitten.com/1800/300">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d156342.40202503302!2d20.918644571409832!3d52.246107569534885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x471934c415383e59%3A0x2f60bdce1b7226a0!2sZapustna+43%2C+Warszawa!3m2!1d52.198076199999996!2d20.9018721!4m5!1s0x471ed01216af6717%3A0x6936f2cbaea6a578!2zWmFqYXpkICJQcnp5YnlzesOzd2thIiwgS29iecWCa2E!3m2!1d52.321071499999995!2d21.213306799999998!5e0!3m2!1spl!2spl!4v1448226032534" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="information">
-          <h2>Informacje</h2>
+          <h2 id="informacje">Informacje</h2>
             <ul>
               <li>Quisque sed magna lacinia, pulvinar justo id, faucibus quam. Fusce at consequat metus.</li>
               <li>Integer at congue mi.</li>
@@ -54,7 +58,7 @@
             </ul>
         </div>
         <div class="contact">
-          <h2>Kontakt</h2>
+          <h2 id="kontakt">Kontakt</h2>
           <div class="Gosia">
             <p>Gosia</p>
             <ul>
@@ -71,5 +75,8 @@
           </div>
         </div>
     </div>
+    <script>
+    smoothScroll.init();
+    </script>
   </body>
 </html>
